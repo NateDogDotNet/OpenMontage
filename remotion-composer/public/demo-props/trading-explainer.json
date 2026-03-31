@@ -1,0 +1,391 @@
+{
+  "cuts": [
+    {
+      "id": "scene-1-hero",
+      "source": "",
+      "in_seconds": 0,
+      "out_seconds": 5,
+      "type": "hero_title",
+      "text": "SELF-HOSTED ALGO TRADING",
+      "heroSubtitle": "From idea to live trading — the complete pipeline"
+    },
+    {
+      "id": "scene-2-problem",
+      "source": "",
+      "in_seconds": 5,
+      "out_seconds": 11,
+      "type": "text_card",
+      "text": "Most algo traders fail — not because of bad strategies, but bad infrastructure",
+      "fontSize": 48,
+      "color": "#F8FAFC",
+      "backgroundColor": "#0A0F1E"
+    },
+    {
+      "id": "scene-3-pipeline",
+      "source": "",
+      "in_seconds": 11,
+      "out_seconds": 19,
+      "type": "kpi_grid",
+      "title": "The Quant Trading Pipeline",
+      "backgroundColor": "#0A0F1E",
+      "columns": 3,
+      "chartAnimation": "cascade",
+      "chartData": [
+        { "label": "Market Data", "value": 1, "prefix": "①", "suffix": "", "change": 0, "icon": "📊" },
+        { "label": "Strategy Dev", "value": 2, "prefix": "②", "suffix": "", "change": 0, "icon": "🧪" },
+        { "label": "Backtesting", "value": 3, "prefix": "③", "suffix": "", "change": 0, "icon": "⏪" },
+        { "label": "Paper Trading", "value": 4, "prefix": "④", "suffix": "", "change": 0, "icon": "📝" },
+        { "label": "Live Execution", "value": 5, "prefix": "⑤", "suffix": "", "change": 0, "icon": "🚀" },
+        { "label": "Monitoring", "value": 6, "prefix": "⑥", "suffix": "", "change": 0, "icon": "📈" }
+      ]
+    },
+    {
+      "id": "scene-4-platforms-title",
+      "source": "",
+      "in_seconds": 19,
+      "out_seconds": 23,
+      "type": "text_card",
+      "text": "Step 1: Choose Your Engine",
+      "fontSize": 64,
+      "color": "#22D3EE",
+      "backgroundColor": "#0A0F1E"
+    },
+    {
+      "id": "scene-5-platforms",
+      "source": "",
+      "in_seconds": 23,
+      "out_seconds": 33,
+      "type": "bar_chart",
+      "title": "Top Self-Hosted Trading Platforms",
+      "backgroundColor": "#0A0F1E",
+      "chartAnimation": "grow-up",
+      "showValues": true,
+      "chartColors": ["#3B82F6", "#22D3EE", "#10B981", "#F59E0B", "#8B5CF6", "#EF4444"],
+      "chartData": [
+        { "label": "LEAN (QuantConnect)", "value": 95 },
+        { "label": "NautilusTrader", "value": 88 },
+        { "label": "QuantRocket", "value": 82 },
+        { "label": "Freqtrade", "value": 78 },
+        { "label": "Zipline", "value": 72 },
+        { "label": "Jesse", "value": 65 }
+      ]
+    },
+    {
+      "id": "scene-6-lean",
+      "source": "",
+      "in_seconds": 33,
+      "out_seconds": 40,
+      "type": "kpi_grid",
+      "title": "LEAN — The Industry Standard",
+      "backgroundColor": "#0A0F1E",
+      "columns": 2,
+      "chartAnimation": "count-up",
+      "chartData": [
+        { "label": "Asset Classes", "value": 5, "suffix": "+", "change": 0, "icon": "📦" },
+        { "label": "Languages", "value": 2, "suffix": " (Python/C#)", "change": 0, "icon": "💻" },
+        { "label": "Brokers", "value": 10, "suffix": "+", "change": 0, "icon": "🏦" },
+        { "label": "Docker Ready", "value": 1, "suffix": " ✓", "change": 0, "icon": "🐳" }
+      ]
+    },
+    {
+      "id": "scene-7-comparison",
+      "source": "",
+      "in_seconds": 40,
+      "out_seconds": 47,
+      "type": "comparison",
+      "title": "Choose Your Platform",
+      "leftLabel": "Equities & Futures",
+      "leftValue": "LEAN + IBKR",
+      "rightLabel": "Crypto Trading",
+      "rightValue": "Freqtrade + Binance",
+      "changeIndicator": "Both self-hosted",
+      "changeDirection": "up",
+      "backgroundColor": "#0A0F1E"
+    },
+    {
+      "id": "scene-8-data-title",
+      "source": "",
+      "in_seconds": 47,
+      "out_seconds": 51,
+      "type": "text_card",
+      "text": "Step 2: Get Your Data Right",
+      "fontSize": 64,
+      "color": "#F59E0B",
+      "backgroundColor": "#0A0F1E"
+    },
+    {
+      "id": "scene-9-data-sources",
+      "source": "",
+      "in_seconds": 51,
+      "out_seconds": 59,
+      "type": "kpi_grid",
+      "title": "Market Data Sources",
+      "backgroundColor": "#0A0F1E",
+      "columns": 3,
+      "chartAnimation": "cascade",
+      "chartData": [
+        { "label": "Polygon (Equities)", "value": 200, "prefix": "$", "suffix": "/mo", "change": 0, "icon": "📈" },
+        { "label": "Binance (Crypto)", "value": 0, "prefix": "$", "suffix": " Free", "change": 0, "icon": "₿" },
+        { "label": "Databento (Futures)", "value": 500, "prefix": "$", "suffix": "/mo", "change": 0, "icon": "🔮" },
+        { "label": "Alpaca (Equities)", "value": 0, "prefix": "$", "suffix": " Free", "change": 0, "icon": "🦙" },
+        { "label": "OANDA (FX)", "value": 0, "prefix": "$", "suffix": " Free", "change": 0, "icon": "💱" },
+        { "label": "FRED (Macro)", "value": 0, "prefix": "$", "suffix": " Free", "change": 0, "icon": "🏛" }
+      ]
+    },
+    {
+      "id": "scene-10-storage",
+      "source": "",
+      "in_seconds": 59,
+      "out_seconds": 64,
+      "type": "callout",
+      "title": "Pro Tip: Store Data in Parquet",
+      "text": "Use Parquet + DuckDB for blazing fast backtests. Most quant funds store tick and bar data in columnar format for maximum query speed.",
+      "callout_type": "tip",
+      "backgroundColor": "#1E293B",
+      "color": "#E2E8F0",
+      "containerBackgroundColor": "#0A0F1E"
+    },
+    {
+      "id": "scene-11-strategies-title",
+      "source": "",
+      "in_seconds": 64,
+      "out_seconds": 68,
+      "type": "text_card",
+      "text": "Step 3: Pick a Strategy Family",
+      "fontSize": 64,
+      "color": "#10B981",
+      "backgroundColor": "#0A0F1E"
+    },
+    {
+      "id": "scene-12-strategies",
+      "source": "",
+      "in_seconds": 68,
+      "out_seconds": 78,
+      "type": "pie_chart",
+      "title": "The Three Strategy Families That Work",
+      "donut": true,
+      "centerLabel": "Quant",
+      "centerValue": "Edge",
+      "chartAnimation": "sequential",
+      "showLegend": true,
+      "backgroundColor": "#0A0F1E",
+      "chartColors": ["#3B82F6", "#10B981", "#F59E0B"],
+      "chartData": [
+        { "label": "Momentum / Trend Following", "value": 40 },
+        { "label": "Mean Reversion", "value": 40 },
+        { "label": "Statistical Arbitrage", "value": 20 }
+      ]
+    },
+    {
+      "id": "scene-13-momentum",
+      "source": "",
+      "in_seconds": 78,
+      "out_seconds": 84,
+      "type": "comparison",
+      "title": "Momentum: Ride the Trend",
+      "leftLabel": "Signal",
+      "leftValue": "50-day MA > 200-day MA",
+      "rightLabel": "Action",
+      "rightValue": "Go Long",
+      "changeIndicator": "Works best: Commodities, FX, Crypto",
+      "changeDirection": "up",
+      "backgroundColor": "#0A0F1E"
+    },
+    {
+      "id": "scene-14-meanrev",
+      "source": "",
+      "in_seconds": 84,
+      "out_seconds": 90,
+      "type": "comparison",
+      "title": "Mean Reversion: Bet on the Bounce",
+      "leftLabel": "Signal",
+      "leftValue": "Price > Upper Bollinger",
+      "rightLabel": "Action",
+      "rightValue": "Go Short",
+      "changeIndicator": "Works best: Equities, ETFs",
+      "changeDirection": "down",
+      "backgroundColor": "#0A0F1E"
+    },
+    {
+      "id": "scene-15-backtest-title",
+      "source": "",
+      "in_seconds": 90,
+      "out_seconds": 94,
+      "type": "text_card",
+      "text": "Step 4: Backtest Ruthlessly",
+      "fontSize": 64,
+      "color": "#EF4444",
+      "backgroundColor": "#0A0F1E"
+    },
+    {
+      "id": "scene-16-backtest-flow",
+      "source": "",
+      "in_seconds": 94,
+      "out_seconds": 103,
+      "type": "kpi_grid",
+      "title": "Backtest → Paper → Live",
+      "backgroundColor": "#0A0F1E",
+      "columns": 3,
+      "chartAnimation": "cascade",
+      "chartData": [
+        { "label": "Historical Backtest", "value": 1, "prefix": "", "suffix": " yr min", "change": 0, "icon": "📜" },
+        { "label": "Paper Trading", "value": 30, "prefix": "", "suffix": " days", "change": 0, "icon": "📝" },
+        { "label": "Live (Small Size)", "value": 90, "prefix": "", "suffix": " days", "change": 0, "icon": "💰" }
+      ]
+    },
+    {
+      "id": "scene-17-fail-reasons",
+      "source": "",
+      "in_seconds": 103,
+      "out_seconds": 112,
+      "type": "bar_chart",
+      "title": "Why 90% of Algo Traders Fail",
+      "backgroundColor": "#0A0F1E",
+      "chartAnimation": "grow-up",
+      "showValues": false,
+      "chartColors": ["#EF4444", "#F59E0B", "#F97316", "#FB923C"],
+      "chartData": [
+        { "label": "Bad / Missing Data", "value": 35 },
+        { "label": "Overfitting to History", "value": 30 },
+        { "label": "Ignoring Trading Costs", "value": 20 },
+        { "label": "Execution Lag", "value": 15 }
+      ]
+    },
+    {
+      "id": "scene-18-infra-title",
+      "source": "",
+      "in_seconds": 112,
+      "out_seconds": 116,
+      "type": "text_card",
+      "text": "Step 5: Set Up Your Infrastructure",
+      "fontSize": 60,
+      "color": "#8B5CF6",
+      "backgroundColor": "#0A0F1E"
+    },
+    {
+      "id": "scene-19-infra",
+      "source": "",
+      "in_seconds": 116,
+      "out_seconds": 125,
+      "type": "kpi_grid",
+      "title": "Realistic Home Quant Setup",
+      "backgroundColor": "#0A0F1E",
+      "columns": 2,
+      "chartAnimation": "count-up",
+      "chartData": [
+        { "label": "Hardware (One-Time)", "value": 3000, "prefix": "$", "suffix": "", "change": 0, "icon": "🖥" },
+        { "label": "Data Feeds (Monthly)", "value": 200, "prefix": "$", "suffix": "/mo", "change": 0, "icon": "📡" },
+        { "label": "VPS Hosting", "value": 50, "prefix": "$", "suffix": "/mo", "change": 0, "icon": "☁" },
+        { "label": "Broker Fees", "value": 0, "prefix": "$", "suffix": "/mo", "change": 0, "icon": "🏦" }
+      ]
+    },
+    {
+      "id": "scene-20-data-edge",
+      "source": "",
+      "in_seconds": 125,
+      "out_seconds": 131,
+      "type": "text_card",
+      "text": "Step 6: The Real Edge Is in the Data",
+      "fontSize": 56,
+      "color": "#22D3EE",
+      "backgroundColor": "#0A0F1E"
+    },
+    {
+      "id": "scene-21-datasets",
+      "source": "",
+      "in_seconds": 131,
+      "out_seconds": 142,
+      "type": "bar_chart",
+      "title": "5 Datasets That Produce Real Alpha",
+      "backgroundColor": "#0A0F1E",
+      "chartAnimation": "grow-up",
+      "showValues": false,
+      "chartColors": ["#10B981", "#22D3EE", "#3B82F6", "#8B5CF6", "#F59E0B"],
+      "chartData": [
+        { "label": "Order Flow / LOB", "value": 95 },
+        { "label": "Volume & Liquidity", "value": 82 },
+        { "label": "News & Sentiment (NLP)", "value": 75 },
+        { "label": "Fundamental / Macro", "value": 68 },
+        { "label": "Alternative Data", "value": 90 }
+      ]
+    },
+    {
+      "id": "scene-22-alt-data",
+      "source": "",
+      "in_seconds": 142,
+      "out_seconds": 149,
+      "type": "callout",
+      "title": "Alternative Data is the New Edge",
+      "text": "Satellite imagery, credit card spending, app downloads, shipping traffic — 65% of hedge funds now use alternative data. Your operational datasets could be worth millions.",
+      "callout_type": "info",
+      "accentColor": "#F59E0B",
+      "backgroundColor": "#1E293B",
+      "color": "#E2E8F0",
+      "containerBackgroundColor": "#0A0F1E"
+    },
+    {
+      "id": "scene-23-stack",
+      "source": "",
+      "in_seconds": 149,
+      "out_seconds": 158,
+      "type": "kpi_grid",
+      "title": "The Recommended Stack",
+      "backgroundColor": "#0A0F1E",
+      "columns": 3,
+      "chartAnimation": "cascade",
+      "chartData": [
+        { "label": "Parquet + DuckDB", "value": 1, "prefix": "", "suffix": " Data", "change": 0, "icon": "🗃" },
+        { "label": "Python + Jupyter", "value": 2, "prefix": "", "suffix": " Research", "change": 0, "icon": "🐍" },
+        { "label": "LEAN or Nautilus", "value": 3, "prefix": "", "suffix": " Engine", "change": 0, "icon": "⚙" },
+        { "label": "IBKR / Alpaca", "value": 4, "prefix": "", "suffix": " Broker", "change": 0, "icon": "🏦" },
+        { "label": "Prometheus", "value": 5, "prefix": "", "suffix": " Metrics", "change": 0, "icon": "📊" },
+        { "label": "Grafana", "value": 6, "prefix": "", "suffix": " Dashboard", "change": 0, "icon": "📈" }
+      ]
+    },
+    {
+      "id": "scene-24-truth",
+      "source": "",
+      "in_seconds": 158,
+      "out_seconds": 165,
+      "type": "stat_card",
+      "stat": "Strategy is Easy",
+      "subtitle": "Reliable execution infrastructure is the real moat. Most failures come from bad data, bad backtests, and execution bugs — not bad ideas.",
+      "accentColor": "#EF4444",
+      "backgroundColor": "#0A0F1E"
+    },
+    {
+      "id": "scene-25-progress",
+      "source": "",
+      "in_seconds": 165,
+      "out_seconds": 172,
+      "type": "progress_bar",
+      "title": "Your Journey to Live Trading",
+      "progress": 100,
+      "progressLabel": "Data → Research → Backtest → Paper → Live",
+      "progressColor": "#10B981",
+      "progressAnimation": "fill",
+      "backgroundColor": "#0A0F1E"
+    },
+    {
+      "id": "scene-26-cta",
+      "source": "",
+      "in_seconds": 172,
+      "out_seconds": 180,
+      "type": "hero_title",
+      "text": "START BUILDING TODAY",
+      "heroSubtitle": "LEAN · NautilusTrader · Freqtrade — all free, all open source"
+    }
+  ],
+  "overlays": [
+    {
+      "id": "ov-intro",
+      "in_seconds": 0,
+      "out_seconds": 5,
+      "type": "section_title",
+      "text": "Self-Hosted Algorithmic Trading",
+      "subtitle": "The Complete Guide",
+      "accentColor": "#3B82F6",
+      "position": "bottom-left"
+    }
+  ]
+}
