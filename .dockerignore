@@ -1,0 +1,11 @@
+.git
+node_modules
+remotion-composer/node_modules
+output
+pipeline
+projects
+*.mp4
+*.wav
+*.mp3
+__pycache__
+.env
